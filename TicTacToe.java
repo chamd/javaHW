@@ -77,9 +77,7 @@ public class TicTacToe {
 			}
 		}
 		if (endCount == 9 || endCount == 8) {
-			if (first.equals("com")) {
-				maps[blank] = 'x';
-			}
+			maps[blank] = 'x';
 			return 10;
 		} else {
 			while (maps[result] != '_') {
