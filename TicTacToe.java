@@ -13,7 +13,7 @@ public class TicTacToe {
 		if(first.equals("com")) {
 			maps[(int) (Math.random() * 9)] = 'x';
 		} else if (!first.equals("user")) {
-			System.out.println("없는 선택이므로 제가 선입니다");
+			System.out.println("없는 선택이므로 당신이 선입니다");
 		}
 		gameLoop(sc);
 		
